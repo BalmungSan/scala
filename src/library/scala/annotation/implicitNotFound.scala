@@ -52,5 +52,8 @@ package scala.annotation
  *   k.n[String]
  *      ^
  * </pre>
+ *
+ * @constructor Creates a new instance of the annotation with the provided message.
+ * @param msg The custom error message, must be a literal value.
  */
 final class implicitNotFound(msg: String) extends scala.annotation.StaticAnnotation {}
